@@ -2,6 +2,7 @@
 library(drc)
 library(ggplot2)
 library(scales)
+library(data.table)
 
 # Loading the data
 haemolysis <- read.csv("haemolysis_FEB_normalised_0_to_1.csv", header = TRUE)
